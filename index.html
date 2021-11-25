@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <script src="https://kit.fontawesome.com/d6fb717329.js" crossorigin="anonymous"></script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -21,24 +22,26 @@
                 <h1>KumoWeb</h1>
             </div>
 
-            <!--
-            <div class="col-md-8">
-                <h2 style="display: inline;">Computers</h1>
-                <h2 align="right" style="display:inline;float: right;">Search</h1>
-            </div>
-            -->
-
             <div class="d-flex col-md-8">
-                <button type="button" class="btn left-btn btn-primary mt-2 mb-2">Computers</button>
-                <form class="flex-fill">
-                    <input type="search" class="form-control mt-2 mb-2" placeholder="Search..." aria-label="Search">
-                </form>
-                <button type="button" class="btn right-btn btn-primary mt-2 mb-2 rounded-right">Search</button>
+                <div class="input-group">
+                    <select class="select-search mt-2 mb-2">
+                        <option selected="selected" value="search-all">All</option>
+                        <option value="search-electronic-devices">Electronic Devices</option>
+                        <option value="search-home-lifestyle">Home and Lifestyle</option>
+                        <option value="search-sports-outdoors">Sports and Outdoors</option>
+                        <option value="search-health-beauty">Health and Beauty</option>
+                    </select>
+
+
+                    <form class="flex-fill">
+                        <input type="search" class="form-control mt-2 mb-2" placeholder="Search..." aria-label="Search">
+                    </form>
+                    <button type="button" class="btn btn-primary mt-2 mb-2 rounded-right">Search</button>
+                </div>
             </div>
 
 
             <div class="col-md-2">
-                <p>Empty space</p>
             </div>
 
         </div>
