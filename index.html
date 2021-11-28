@@ -36,7 +36,7 @@
                     <form class="flex-fill">
                         <input type="search" class="form-control mt-2 mb-2" placeholder="Search..." aria-label="Search">
                     </form>
-                    <button type="button" class="btn btn-primary mt-2 mb-2 rounded-right">Search</button>
+                    <button type="button" class="search-btn btn btn-primary mt-2 mb-2 rounded-right">Search</button>
                 </div>
             </div>
 
@@ -50,35 +50,31 @@
         <div class="categories row">
 
             <div class="col-md-2">
-                <p>empty space</p>
+                <!-- <p>empty space</p> -->
             </div>
 
             <div class="col-md-8">
-                <!--
-                <ul>
-                    <li>ALL CATEGORIES</li>
-                    <li><a href="#">Electronic Devices</a></li>
-                    <li><a href="#">Home and Lifestyle</a></li>
-                    <li><a href="#">Sports and Outdoors</a></li>
-                    <li><a href="#">Health and Beauty</a></li>
-                </ul>
-            -->
 
-                <ul class="cats">
-                    <li class="nav-item dropdown">
-                        <a class="dropdown-toggle all-cats" href="#" data-bs-toggle="dropdown">ALL CATEGORIES</a>
+                <ul class="cats-list">
+                    <li class="first-child nav-item dropdown">
+                        <a class="dropdown-toggle all-cats-btn fl" href="#" data-bs-toggle="dropdown">ALL CATEGORIES</a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Cat-1</a></li>
                             <li><hr class="dropdown-divider"></li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            <li><a class="dropdown-item" href="#">Subcat-1</a></li>
+                            <li><a class="dropdown-item" href="#">Subcat-2</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="#">Cat-2</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="#">Subcat-1</a></li>
+                            <li><a class="dropdown-item" href="#">Subcat-2</a></li>
                         </ul>
                     </li>
 
-                    <li><a href="#">Electronic Devices</a></li>
-                    <li><a href="#">Home and Lifestyle</a></li>
-                    <li><a href="#">Sports and Outdoors</a></li>
-                    <li><a href="#">Health and Beauty</a></li>
+                    <li class="first-child"><a href="#" class="fl">Electronic Devices</a></li>
+                    <li class="first-child"><a href="#" class="fl">Home and Lifestyle</a></li>
+                    <li class="first-child"><a href="#" class="fl">Sports and Outdoors</a></li>
+                    <li class="first-child"><a href="#" class="fl">Health and Beauty</a></li>
                     
                 </ul>
 
@@ -86,7 +82,7 @@
             </div>
 
             <div class="col-md-2">
-                <p>empty space</p>
+                <!-- <p>empty space</p> -->
             </div>
 
         </div>
@@ -95,21 +91,34 @@
         <div class="sort row">
 
             <div class="col-md-2">
-                <p>empty space</p>
+                <!-- <p>empty space</p> -->
             </div>
 
             <div class="col-md-8">
-                <ul>
-                    <li><a href="#">Hot</a></li>
-                    <li><a href="#">Location</a></li>
-                    <li><a href="#">New</a></li>
-                    <li><a href="#">Top</a></li>
-                    <li><a href="#">On Sale</a></li>
+                <ul class="sort-cats">
+                    <li class="first-child"><a href="#" class="btn btn-secondary selected-cat">Hot</a></li>
+                    <li class="first-child"><a href="#" class="btn btn-secondary selected-cat dropdown-toggle" data-bs-toggle="dropdown">Location</a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Asia</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="#">Pakistan</a></li>
+                            <li><a class="dropdown-item" href="#">Iran</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="#">Europe</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="#">Greece</a></li>
+                            <li><a class="dropdown-item" href="#">Italy</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="first-child"><a href="#" class="btn btn-link non-selected">New</a></li>
+                    <li class="first-child"><a href="#" class="btn btn-link non-selected">Top</a></li>
+                    <li class="first-child"><a href="#" class="btn btn-link non-selected">On Sale</a></li>
                 </ul>
             </div>
 
             <div class="col-md-2">
-                <p>empty space</p>
+                <!-- <p>empty space</p> -->
             </div>
 
         </div>
@@ -124,13 +133,13 @@
         <div class="cat-by row">
 
             <div class="col-md-2">
-                <p>empty space</p>
+                <!-- <p>empty space</p> -->
             </div>
             <div class="col-md-8">
                 <b>Hot</b> <i>Everywhere</i>
             </div>
             <div class="col-md-2">
-                <p>empty space</p>
+                <!-- <p>empty space</p> -->
             </div>
 
         </div>
@@ -139,15 +148,20 @@
         <div class="products row">
 
             <div class="col-md-2">
-                <p>empty space</p>
+                <!-- <p>empty space</p> -->
             </div>
 
             <div class="col-md-8">
                 <!-- PRODUCTS-->
+                <h2 align="center">PRODUCTS</h2>
+                <h2 align="center">PRODUCTS</h2>
+                <h2 align="center">PRODUCTS</h2>
+                <h2 align="center">PRODUCTS</h2>
+                <br>
             </div>
 
             <div class="col-md-2">
-                <p>empty space</p>
+                <!-- <p>empty space</p> -->
             </div>
 
         </div>

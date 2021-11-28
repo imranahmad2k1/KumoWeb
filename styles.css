@@ -1,39 +1,111 @@
 /*HEADER */
     /*-Search Row*/
+
+    .search{
+        background-color: #6b6b6b;
+        color:white;
+    }
+
+    .search-btn{
+        background-color: #f1f1f1;
+        color:darkblue;
+        border:0;
+    }
+
+    .search-btn:hover{
+        background-color:#cfcfcf;
+        color:darkblue;
+    }
+
     .select-search{
         border-radius: .25rem;
-        background-color: #0d6efd;
-        color:white;
+        background-color: #f1f1f1;
+        border:0;
+        color:darkblue;
+        font-weight: bolder;
     }
 
     .form-control{
         border-radius: 0;
-        line-height: 26px;
+        border:0;
+        line-height: 28px;
     }
 
     /*-Categories Row and Sort Row*/
     .categories{
-        padding-top: 10px;
-        padding-bottom: 10px;
+        background-color: #979797;
     }
-    .categories ul, .sort ul{
+
+    .cats-list{
+        position: relative;
+        margin-top: 10px;
+    }
+
+    .categories .cats-list, .sort ul{
         padding:0;
     }
 
-    .categories li, .sort li{
+    .cats-list, .sort-cats{
+        font-size:20px;
+    }
+
+    .cats-list li, .sort li{
         display: inline;
     }
 
-    .cats{
-        padding:100px;
-        font-size:25px;
+    .cats-list .first-child .fl{
+        padding: 4px 9px 4px 9px;
+        text-decoration:none;
+        color:rgb(255, 255, 255);
+        border:2px solid transparent;
     }
 
-    .all-cats{
+    .cats-list .first-child .fl:hover{
+        border:2px solid white;
+        border-color:rgb(255, 255, 255);
+    }
+
+    .all-cats-btn{
         font-weight: bolder;
     }
 
-    .cats li{
+    .cats-list .first-child{
         padding: 0px 50px 0px 0px;
     }
     
+    .sort-cats li .selected-cat{
+        border-radius: 1rem;
+        background:rgba(128, 128, 128, 0.1);
+        border:0;
+        color:darkblue;
+        font-weight: bolder;
+    }
+
+    .sort-cats li .selected-cat:hover{
+        background:rgba(128, 128, 128, 0.3);
+    }
+
+    .sort-cats li .non-selected{
+        border:0;
+        color:darkblue;
+        border-radius: 1rem;
+    }
+
+    .sort-cats li .non-selected:hover{
+        background:rgba(128, 128, 128, 0.3);
+    }
+
+    .sort-cats .first-child{
+        padding-right: 10px;
+    }
+
+    .sort-cats li a{
+        text-decoration:none;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+/*MAIN BODY */
+.main{
+    background-color: #f1f1f1;
+}
